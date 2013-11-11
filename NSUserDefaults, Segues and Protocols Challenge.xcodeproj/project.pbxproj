@@ -21,6 +21,8 @@
 		6F2775B61830456A00D8712B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2775981830456A00D8712B /* UIKit.framework */; };
 		6F2775BE1830456A00D8712B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2775BC1830456A00D8712B /* InfoPlist.strings */; };
 		6F2775C01830456A00D8712B /* NSUserDefaults__Segues_and_Protocols_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2775BF1830456A00D8712B /* NSUserDefaults__Segues_and_Protocols_ChallengeTests.m */; };
+		6F2775CB183045A600D8712B /* DDDSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2775CA183045A600D8712B /* DDDSignInViewController.m */; };
+		6F2775CE183045B900D8712B /* DDDCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2775CD183045B900D8712B /* DDDCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6F2775BB1830456A00D8712B /* NSUserDefaults, Segues and Protocols ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		6F2775BD1830456A00D8712B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F2775BF1830456A00D8712B /* NSUserDefaults__Segues_and_Protocols_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_ChallengeTests.m; sourceTree = "<group>"; };
+		6F2775C9183045A600D8712B /* DDDSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDSignInViewController.h; sourceTree = "<group>"; };
+		6F2775CA183045A600D8712B /* DDDSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDSignInViewController.m; sourceTree = "<group>"; };
+		6F2775CC183045B900D8712B /* DDDCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDCreateAccountViewController.h; sourceTree = "<group>"; };
+		6F2775CD183045B900D8712B /* DDDCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				6F2775A61830456A00D8712B /* Main.storyboard */,
 				6F2775A91830456A00D8712B /* DDDViewController.h */,
 				6F2775AA1830456A00D8712B /* DDDViewController.m */,
+				6F2775C9183045A600D8712B /* DDDSignInViewController.h */,
+				6F2775CA183045A600D8712B /* DDDSignInViewController.m */,
+				6F2775CC183045B900D8712B /* DDDCreateAccountViewController.h */,
+				6F2775CD183045B900D8712B /* DDDCreateAccountViewController.m */,
 				6F2775AC1830456A00D8712B /* Images.xcassets */,
 				6F27759B1830456A00D8712B /* Supporting Files */,
 			);
@@ -253,6 +263,8 @@
 				6F2775A11830456A00D8712B /* main.m in Sources */,
 				6F2775AB1830456A00D8712B /* DDDViewController.m in Sources */,
 				6F2775A51830456A00D8712B /* DDDAppDelegate.m in Sources */,
+				6F2775CE183045B900D8712B /* DDDCreateAccountViewController.m in Sources */,
+				6F2775CB183045A600D8712B /* DDDSignInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,4 +10,7 @@
 
 @interface DDDViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *usernameValueLabel;
+@property (strong, nonatomic) IBOutlet UILabel *passwordValueLabel;
+- (IBAction)backButtonPressed:(UIButton *)sender;
 @end
